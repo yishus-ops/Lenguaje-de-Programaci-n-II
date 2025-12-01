@@ -1,0 +1,484 @@
+namespace Coppel
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Variable del diseñador necesaria.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código generado por el Diseñador de Windows Forms
+
+        /// <summary>
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPageEmpleado = new System.Windows.Forms.TabPage();
+            this.dgvempleadoTA = new System.Windows.Forms.DataGridView();
+            this.tabPageCentroTrabajo = new System.Windows.Forms.TabPage();
+            this.dgvCentroTrabajo = new System.Windows.Forms.DataGridView();
+            this.tabPagePuestos = new System.Windows.Forms.TabPage();
+            this.dgvPuestos = new System.Windows.Forms.DataGridView();
+            this.tabPageDirectivos = new System.Windows.Forms.TabPage();
+            this.dgvDirectivos = new System.Windows.Forms.DataGridView();
+            this.cOPPELDataSet = new Coppel.COPPELDataSet();
+            this.empleadoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.empleadoTableAdapter = new Coppel.COPPELDataSetTableAdapters.EmpleadoTableAdapter();
+            this.tableAdapterManager = new Coppel.COPPELDataSetTableAdapters.TableAdapterManager();
+            this.noEmpleadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellidoPDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellidoMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fechaNacimientoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rFCDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.centroTrabajoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.puestoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descripcionPuestoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.directivoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.centroTrabajoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.centroTrabajoTableAdapter = new Coppel.COPPELDataSetTableAdapters.centroTrabajoTableAdapter();
+            this.noCentroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreCentroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ciudadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.puestosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.puestosTableAdapter = new Coppel.COPPELDataSetTableAdapters.puestosTableAdapter();
+            this.noPuestoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.puestoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descripcionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.directivosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.directivosTableAdapter = new Coppel.COPPELDataSetTableAdapters.DirectivosTableAdapter();
+            this.noEmpleadoDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.numeroCentroSupervisaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prestacionesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabControl1.SuspendLayout();
+            this.tabPageEmpleado.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvempleadoTA)).BeginInit();
+            this.tabPageCentroTrabajo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCentroTrabajo)).BeginInit();
+            this.tabPagePuestos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPuestos)).BeginInit();
+            this.tabPageDirectivos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDirectivos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cOPPELDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.centroTrabajoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.puestosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.directivosBindingSource)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPageEmpleado);
+            this.tabControl1.Controls.Add(this.tabPageCentroTrabajo);
+            this.tabControl1.Controls.Add(this.tabPagePuestos);
+            this.tabControl1.Controls.Add(this.tabPageDirectivos);
+            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(776, 426);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPageEmpleado
+            // 
+            this.tabPageEmpleado.Controls.Add(this.dgvempleadoTA);
+            this.tabPageEmpleado.Location = new System.Drawing.Point(4, 25);
+            this.tabPageEmpleado.Name = "tabPageEmpleado";
+            this.tabPageEmpleado.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageEmpleado.Size = new System.Drawing.Size(768, 397);
+            this.tabPageEmpleado.TabIndex = 0;
+            this.tabPageEmpleado.Text = "Empleados";
+            this.tabPageEmpleado.UseVisualStyleBackColor = true;
+            // 
+            // dgvempleadoTA
+            // 
+            this.dgvempleadoTA.AutoGenerateColumns = false;
+            this.dgvempleadoTA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvempleadoTA.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.noEmpleadoDataGridViewTextBoxColumn,
+            this.nombreDataGridViewTextBoxColumn,
+            this.apellidoPDataGridViewTextBoxColumn,
+            this.apellidoMDataGridViewTextBoxColumn,
+            this.fechaNacimientoDataGridViewTextBoxColumn,
+            this.rFCDataGridViewTextBoxColumn,
+            this.centroTrabajoDataGridViewTextBoxColumn,
+            this.puestoDataGridViewTextBoxColumn,
+            this.descripcionPuestoDataGridViewTextBoxColumn,
+            this.directivoDataGridViewTextBoxColumn});
+            this.dgvempleadoTA.DataSource = this.empleadoBindingSource;
+            this.dgvempleadoTA.Location = new System.Drawing.Point(6, 6);
+            this.dgvempleadoTA.Name = "dgvempleadoTA";
+            this.dgvempleadoTA.RowHeadersWidth = 51;
+            this.dgvempleadoTA.RowTemplate.Height = 24;
+            this.dgvempleadoTA.Size = new System.Drawing.Size(759, 385);
+            this.dgvempleadoTA.TabIndex = 0;
+            // 
+            // tabPageCentroTrabajo
+            // 
+            this.tabPageCentroTrabajo.Controls.Add(this.dgvCentroTrabajo);
+            this.tabPageCentroTrabajo.Location = new System.Drawing.Point(4, 25);
+            this.tabPageCentroTrabajo.Name = "tabPageCentroTrabajo";
+            this.tabPageCentroTrabajo.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageCentroTrabajo.Size = new System.Drawing.Size(768, 397);
+            this.tabPageCentroTrabajo.TabIndex = 1;
+            this.tabPageCentroTrabajo.Text = "Centros de Trabajo";
+            this.tabPageCentroTrabajo.UseVisualStyleBackColor = true;
+            // 
+            // dgvCentroTrabajo
+            // 
+            this.dgvCentroTrabajo.AutoGenerateColumns = false;
+            this.dgvCentroTrabajo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCentroTrabajo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.noCentroDataGridViewTextBoxColumn,
+            this.nombreCentroDataGridViewTextBoxColumn,
+            this.ciudadDataGridViewTextBoxColumn});
+            this.dgvCentroTrabajo.DataSource = this.centroTrabajoBindingSource;
+            this.dgvCentroTrabajo.Location = new System.Drawing.Point(3, 6);
+            this.dgvCentroTrabajo.Name = "dgvCentroTrabajo";
+            this.dgvCentroTrabajo.RowHeadersWidth = 51;
+            this.dgvCentroTrabajo.RowTemplate.Height = 24;
+            this.dgvCentroTrabajo.Size = new System.Drawing.Size(762, 385);
+            this.dgvCentroTrabajo.TabIndex = 0;
+            // 
+            // tabPagePuestos
+            // 
+            this.tabPagePuestos.Controls.Add(this.dgvPuestos);
+            this.tabPagePuestos.Location = new System.Drawing.Point(4, 25);
+            this.tabPagePuestos.Name = "tabPagePuestos";
+            this.tabPagePuestos.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPagePuestos.Size = new System.Drawing.Size(768, 397);
+            this.tabPagePuestos.TabIndex = 2;
+            this.tabPagePuestos.Text = "Puestos";
+            this.tabPagePuestos.UseVisualStyleBackColor = true;
+            // 
+            // dgvPuestos
+            // 
+            this.dgvPuestos.AutoGenerateColumns = false;
+            this.dgvPuestos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPuestos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.noPuestoDataGridViewTextBoxColumn,
+            this.puestoDataGridViewTextBoxColumn1,
+            this.descripcionDataGridViewTextBoxColumn});
+            this.dgvPuestos.DataSource = this.puestosBindingSource;
+            this.dgvPuestos.Location = new System.Drawing.Point(6, 6);
+            this.dgvPuestos.Name = "dgvPuestos";
+            this.dgvPuestos.RowHeadersWidth = 51;
+            this.dgvPuestos.RowTemplate.Height = 24;
+            this.dgvPuestos.Size = new System.Drawing.Size(756, 385);
+            this.dgvPuestos.TabIndex = 0;
+            // 
+            // tabPageDirectivos
+            // 
+            this.tabPageDirectivos.Controls.Add(this.dgvDirectivos);
+            this.tabPageDirectivos.Location = new System.Drawing.Point(4, 25);
+            this.tabPageDirectivos.Name = "tabPageDirectivos";
+            this.tabPageDirectivos.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageDirectivos.Size = new System.Drawing.Size(768, 397);
+            this.tabPageDirectivos.TabIndex = 3;
+            this.tabPageDirectivos.Text = "Directivos";
+            this.tabPageDirectivos.UseVisualStyleBackColor = true;
+            // 
+            // dgvDirectivos
+            // 
+            this.dgvDirectivos.AutoGenerateColumns = false;
+            this.dgvDirectivos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDirectivos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.noEmpleadoDataGridViewTextBoxColumn1,
+            this.numeroCentroSupervisaDataGridViewTextBoxColumn,
+            this.prestacionesDataGridViewTextBoxColumn});
+            this.dgvDirectivos.DataSource = this.directivosBindingSource;
+            this.dgvDirectivos.Location = new System.Drawing.Point(3, 3);
+            this.dgvDirectivos.Name = "dgvDirectivos";
+            this.dgvDirectivos.RowHeadersWidth = 51;
+            this.dgvDirectivos.RowTemplate.Height = 24;
+            this.dgvDirectivos.Size = new System.Drawing.Size(759, 388);
+            this.dgvDirectivos.TabIndex = 0;
+            // 
+            // cOPPELDataSet
+            // 
+            this.cOPPELDataSet.DataSetName = "COPPELDataSet";
+            this.cOPPELDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // empleadoBindingSource
+            // 
+            this.empleadoBindingSource.DataMember = "Empleado";
+            this.empleadoBindingSource.DataSource = this.cOPPELDataSet;
+            // 
+            // empleadoTableAdapter
+            // 
+            this.empleadoTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.centroTrabajoTableAdapter = this.centroTrabajoTableAdapter;
+            this.tableAdapterManager.DirectivosTableAdapter = this.directivosTableAdapter;
+            this.tableAdapterManager.EmpleadoTableAdapter = this.empleadoTableAdapter;
+            this.tableAdapterManager.puestosTableAdapter = this.puestosTableAdapter;
+            this.tableAdapterManager.UpdateOrder = Coppel.COPPELDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // noEmpleadoDataGridViewTextBoxColumn
+            // 
+            this.noEmpleadoDataGridViewTextBoxColumn.DataPropertyName = "noEmpleado";
+            this.noEmpleadoDataGridViewTextBoxColumn.HeaderText = "noEmpleado";
+            this.noEmpleadoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.noEmpleadoDataGridViewTextBoxColumn.Name = "noEmpleadoDataGridViewTextBoxColumn";
+            this.noEmpleadoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.noEmpleadoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // nombreDataGridViewTextBoxColumn
+            // 
+            this.nombreDataGridViewTextBoxColumn.DataPropertyName = "nombre";
+            this.nombreDataGridViewTextBoxColumn.HeaderText = "nombre";
+            this.nombreDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
+            this.nombreDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // apellidoPDataGridViewTextBoxColumn
+            // 
+            this.apellidoPDataGridViewTextBoxColumn.DataPropertyName = "apellidoP";
+            this.apellidoPDataGridViewTextBoxColumn.HeaderText = "apellidoP";
+            this.apellidoPDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.apellidoPDataGridViewTextBoxColumn.Name = "apellidoPDataGridViewTextBoxColumn";
+            this.apellidoPDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // apellidoMDataGridViewTextBoxColumn
+            // 
+            this.apellidoMDataGridViewTextBoxColumn.DataPropertyName = "apellidoM";
+            this.apellidoMDataGridViewTextBoxColumn.HeaderText = "apellidoM";
+            this.apellidoMDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.apellidoMDataGridViewTextBoxColumn.Name = "apellidoMDataGridViewTextBoxColumn";
+            this.apellidoMDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // fechaNacimientoDataGridViewTextBoxColumn
+            // 
+            this.fechaNacimientoDataGridViewTextBoxColumn.DataPropertyName = "fechaNacimiento";
+            this.fechaNacimientoDataGridViewTextBoxColumn.HeaderText = "fechaNacimiento";
+            this.fechaNacimientoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.fechaNacimientoDataGridViewTextBoxColumn.Name = "fechaNacimientoDataGridViewTextBoxColumn";
+            this.fechaNacimientoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // rFCDataGridViewTextBoxColumn
+            // 
+            this.rFCDataGridViewTextBoxColumn.DataPropertyName = "RFC";
+            this.rFCDataGridViewTextBoxColumn.HeaderText = "RFC";
+            this.rFCDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.rFCDataGridViewTextBoxColumn.Name = "rFCDataGridViewTextBoxColumn";
+            this.rFCDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // centroTrabajoDataGridViewTextBoxColumn
+            // 
+            this.centroTrabajoDataGridViewTextBoxColumn.DataPropertyName = "centroTrabajo";
+            this.centroTrabajoDataGridViewTextBoxColumn.HeaderText = "centroTrabajo";
+            this.centroTrabajoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.centroTrabajoDataGridViewTextBoxColumn.Name = "centroTrabajoDataGridViewTextBoxColumn";
+            this.centroTrabajoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // puestoDataGridViewTextBoxColumn
+            // 
+            this.puestoDataGridViewTextBoxColumn.DataPropertyName = "puesto";
+            this.puestoDataGridViewTextBoxColumn.HeaderText = "puesto";
+            this.puestoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.puestoDataGridViewTextBoxColumn.Name = "puestoDataGridViewTextBoxColumn";
+            this.puestoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // descripcionPuestoDataGridViewTextBoxColumn
+            // 
+            this.descripcionPuestoDataGridViewTextBoxColumn.DataPropertyName = "descripcionPuesto";
+            this.descripcionPuestoDataGridViewTextBoxColumn.HeaderText = "descripcionPuesto";
+            this.descripcionPuestoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.descripcionPuestoDataGridViewTextBoxColumn.Name = "descripcionPuestoDataGridViewTextBoxColumn";
+            this.descripcionPuestoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // directivoDataGridViewTextBoxColumn
+            // 
+            this.directivoDataGridViewTextBoxColumn.DataPropertyName = "directivo";
+            this.directivoDataGridViewTextBoxColumn.HeaderText = "directivo";
+            this.directivoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.directivoDataGridViewTextBoxColumn.Name = "directivoDataGridViewTextBoxColumn";
+            this.directivoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // centroTrabajoBindingSource
+            // 
+            this.centroTrabajoBindingSource.DataMember = "centroTrabajo";
+            this.centroTrabajoBindingSource.DataSource = this.cOPPELDataSet;
+            // 
+            // centroTrabajoTableAdapter
+            // 
+            this.centroTrabajoTableAdapter.ClearBeforeFill = true;
+            // 
+            // noCentroDataGridViewTextBoxColumn
+            // 
+            this.noCentroDataGridViewTextBoxColumn.DataPropertyName = "noCentro";
+            this.noCentroDataGridViewTextBoxColumn.HeaderText = "noCentro";
+            this.noCentroDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.noCentroDataGridViewTextBoxColumn.Name = "noCentroDataGridViewTextBoxColumn";
+            this.noCentroDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // nombreCentroDataGridViewTextBoxColumn
+            // 
+            this.nombreCentroDataGridViewTextBoxColumn.DataPropertyName = "nombreCentro";
+            this.nombreCentroDataGridViewTextBoxColumn.HeaderText = "nombreCentro";
+            this.nombreCentroDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.nombreCentroDataGridViewTextBoxColumn.Name = "nombreCentroDataGridViewTextBoxColumn";
+            this.nombreCentroDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // ciudadDataGridViewTextBoxColumn
+            // 
+            this.ciudadDataGridViewTextBoxColumn.DataPropertyName = "ciudad";
+            this.ciudadDataGridViewTextBoxColumn.HeaderText = "ciudad";
+            this.ciudadDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.ciudadDataGridViewTextBoxColumn.Name = "ciudadDataGridViewTextBoxColumn";
+            this.ciudadDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // puestosBindingSource
+            // 
+            this.puestosBindingSource.DataMember = "puestos";
+            this.puestosBindingSource.DataSource = this.cOPPELDataSet;
+            // 
+            // puestosTableAdapter
+            // 
+            this.puestosTableAdapter.ClearBeforeFill = true;
+            // 
+            // noPuestoDataGridViewTextBoxColumn
+            // 
+            this.noPuestoDataGridViewTextBoxColumn.DataPropertyName = "noPuesto";
+            this.noPuestoDataGridViewTextBoxColumn.HeaderText = "noPuesto";
+            this.noPuestoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.noPuestoDataGridViewTextBoxColumn.Name = "noPuestoDataGridViewTextBoxColumn";
+            this.noPuestoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // puestoDataGridViewTextBoxColumn1
+            // 
+            this.puestoDataGridViewTextBoxColumn1.DataPropertyName = "puesto";
+            this.puestoDataGridViewTextBoxColumn1.HeaderText = "puesto";
+            this.puestoDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.puestoDataGridViewTextBoxColumn1.Name = "puestoDataGridViewTextBoxColumn1";
+            this.puestoDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // descripcionDataGridViewTextBoxColumn
+            // 
+            this.descripcionDataGridViewTextBoxColumn.DataPropertyName = "descripcion";
+            this.descripcionDataGridViewTextBoxColumn.HeaderText = "descripcion";
+            this.descripcionDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.descripcionDataGridViewTextBoxColumn.Name = "descripcionDataGridViewTextBoxColumn";
+            this.descripcionDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // directivosBindingSource
+            // 
+            this.directivosBindingSource.DataMember = "Directivos";
+            this.directivosBindingSource.DataSource = this.cOPPELDataSet;
+            // 
+            // directivosTableAdapter
+            // 
+            this.directivosTableAdapter.ClearBeforeFill = true;
+            // 
+            // noEmpleadoDataGridViewTextBoxColumn1
+            // 
+            this.noEmpleadoDataGridViewTextBoxColumn1.DataPropertyName = "noEmpleado";
+            this.noEmpleadoDataGridViewTextBoxColumn1.HeaderText = "noEmpleado";
+            this.noEmpleadoDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.noEmpleadoDataGridViewTextBoxColumn1.Name = "noEmpleadoDataGridViewTextBoxColumn1";
+            this.noEmpleadoDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // numeroCentroSupervisaDataGridViewTextBoxColumn
+            // 
+            this.numeroCentroSupervisaDataGridViewTextBoxColumn.DataPropertyName = "numeroCentroSupervisa";
+            this.numeroCentroSupervisaDataGridViewTextBoxColumn.HeaderText = "numeroCentroSupervisa";
+            this.numeroCentroSupervisaDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.numeroCentroSupervisaDataGridViewTextBoxColumn.Name = "numeroCentroSupervisaDataGridViewTextBoxColumn";
+            this.numeroCentroSupervisaDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // prestacionesDataGridViewTextBoxColumn
+            // 
+            this.prestacionesDataGridViewTextBoxColumn.DataPropertyName = "prestaciones";
+            this.prestacionesDataGridViewTextBoxColumn.HeaderText = "prestaciones";
+            this.prestacionesDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.prestacionesDataGridViewTextBoxColumn.Name = "prestacionesDataGridViewTextBoxColumn";
+            this.prestacionesDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tabControl1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPageEmpleado.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvempleadoTA)).EndInit();
+            this.tabPageCentroTrabajo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCentroTrabajo)).EndInit();
+            this.tabPagePuestos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPuestos)).EndInit();
+            this.tabPageDirectivos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDirectivos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cOPPELDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.empleadoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.centroTrabajoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.puestosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.directivosBindingSource)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPageEmpleado;
+        private System.Windows.Forms.TabPage tabPageCentroTrabajo;
+        private System.Windows.Forms.DataGridView dgvempleadoTA;
+        private System.Windows.Forms.DataGridView dgvCentroTrabajo;
+        private System.Windows.Forms.TabPage tabPagePuestos;
+        private System.Windows.Forms.DataGridView dgvPuestos;
+        private System.Windows.Forms.TabPage tabPageDirectivos;
+        private System.Windows.Forms.DataGridView dgvDirectivos;
+        private COPPELDataSet cOPPELDataSet;
+        private System.Windows.Forms.BindingSource empleadoBindingSource;
+        private COPPELDataSetTableAdapters.EmpleadoTableAdapter empleadoTableAdapter;
+        private COPPELDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noEmpleadoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn apellidoPDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn apellidoMDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fechaNacimientoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rFCDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn centroTrabajoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn puestoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descripcionPuestoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn directivoDataGridViewTextBoxColumn;
+        private COPPELDataSetTableAdapters.centroTrabajoTableAdapter centroTrabajoTableAdapter;
+        private System.Windows.Forms.BindingSource centroTrabajoBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noCentroDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreCentroDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ciudadDataGridViewTextBoxColumn;
+        private COPPELDataSetTableAdapters.puestosTableAdapter puestosTableAdapter;
+        private System.Windows.Forms.BindingSource puestosBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noPuestoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn puestoDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descripcionDataGridViewTextBoxColumn;
+        private COPPELDataSetTableAdapters.DirectivosTableAdapter directivosTableAdapter;
+        private System.Windows.Forms.BindingSource directivosBindingSource;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noEmpleadoDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn numeroCentroSupervisaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn prestacionesDataGridViewTextBoxColumn;
+    }
+}
